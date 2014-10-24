@@ -1,0 +1,4 @@
+
+.image:after {
+	background:url(../images/banner-shadow.png) left bottom repeat-x !important;
+}

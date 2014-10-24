@@ -1,0 +1,53 @@
+.load-vid h3,
+.menu > li:hover > a,
+.menu > li.active > a,
+.menu-mobile .menu a:hover,
+.read-more,
+.widget-text p a,
+.text-red,
+.footer .widget > h2,
+a.open-menu:hover,
+.blog-infobar li a:hover {
+	color:#c50b0b;
+}
+
+.bg-red,
+.tweets blockquote.bg-red,
+span.file_upload em,
+.btn-red,
+.pagination > a.jp-current,
+.pagination > span.jp-current,
+.pagination > a.jp-current:hover,
+.pagination > span.jp-current:hover,
+.pagination a.current,
+.pagination span.current,
+.pagination a.current:hover,
+.pagination span.current:hover,
+.block-pic .blog-zoom,
+.block-pic .blog-link,
+.ui-dialog .ui-dialog-titlebar-close,
+.widget_tag_cloud .tagcloud a,
+.color-picker-wrap .social-color-scheme > a,
+.tags > a:hover {
+	background-color:#c50b0b;
+}
+
+#wp-calendar tbody td#today,
+#wp-calendar tbody td#today:hover,
+.bullet-arrow li:hover,
+.blogroll li:hover,
+.widget_pages li:hover,
+.widget_categories li:hover,
+.widget_archive li:hover,
+.widget_recent_entries li:hover,
+.widget_recent_comments li:hover,
+.menu-bar {
+	background:#c50b0b;
+}
+
+.tweets blockquote.bg-red:after {
+	border-top: 14px solid #c50b0b;
+}
+.menu-mobile .menu li ul a:hover:before {
+	border-color:transparent transparent transparent #c50b0b;
+}

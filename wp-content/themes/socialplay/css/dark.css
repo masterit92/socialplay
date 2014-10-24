@@ -1,0 +1,451 @@
+/*!
+ * Socialplay v.1.0.0
+ * Copyright 2012 extracoding.com
+ * 
+ */
+
+body.dark,
+.dark .snap .close,
+.dark .single-contents .video-thumb,
+.dark .single-contents .audio-thumb,
+.dark .bullet-arrow li, 
+.dark .blogroll li, 
+.dark .widget_pages li, 
+.dark .widget_categories li, 
+.dark .widget_archive li, 
+.dark .widget_recent_entries li, 
+.dark .widget_recent_comments li,
+.dark .single-contents .pagination,
+.dark .tags > a {
+	background-color:#1b1b1b;
+}
+
+.dark .menu > li:hover,
+.dark .menu > li.active,
+.dark .menu li ul,
+.dark .menu-mobile .menu,
+.dark a.drop-select,
+.dark li.dropdown ul,
+.dark .box,
+.dark .alert,
+.dark .footer,
+.dark .video-thumb,
+.dark .audio-thumb,
+.dark .video-details,
+.dark .heading,
+.dark .user-comments,
+.dark .bread-bar,
+.dark .blog-box,
+.dark .pagination,
+.dark .author,
+.dark .single-contents,
+.dark .content-box,
+.dark .content-box .chan-contain,
+.dark .filters .filter-data a,
+.dark .posts-list,
+.dark .widget-audio,
+.dark .widget-text,
+.dark .widget-contact,
+.dark .widget-recent-vids,
+.dark .contact-form,
+.dark .bullet-arrow li,
+.dark .widget_widget-contact,
+.dark .widget_widget-recent-vids {
+	background:#333333;
+}
+
+.dark .load-vid h3,
+.dark .btn,
+.dark .open-menu:hover,
+.dark .menu > li:hover > a,
+.dark .menu > li.active > a,
+.dark .menu li li a:hover,
+.dark .menu-mobile .menu a,
+.dark .read-more,
+.dark .widget-text p a,
+.dark .widget_text p a,
+.dark .text-red,
+.dark .widget > h2,
+.dark .footer .widget > h2,
+.dark .filters .filter-data span, 
+.dark .filters .filter-data a,
+.dark .footer .posts-list li .post-text a,
+.dark .widget-recent-vids .vid-title,
+.dark label,
+.dark .author .description li,
+.dark .author .description li a,
+.dark a:hover, 
+.dark .blog-detail a,
+.dark ul.contact-matter a:hover,
+.dark .blog-infobar li a:hover,
+.dark .dropdown ul li > a:hover,
+.dark .bullet-arrow li:hover a,
+.dark .heading a,
+.dark .heading h2,
+.dark .heading h1,
+.dark .title a,
+.dark .title h1,
+.dark .title h2,
+.dark .user-comments .comment-box strong,
+.dark .user-comments .reply > li,
+.dark .user-comments .reply > li a,
+.dark .blog-detail blockquote p,
+.dark .details .user h4,
+.dark .details .description h6,
+.dark .video-details .pulished {
+	color:#ffffff;
+}
+
+.dark [class^="icon-"],
+.dark [class*=" icon-"],
+.dark .user-comments .comment-box .connect-comment,
+.dark .tp-video .vid-count,
+.dark li.sp,
+.dark ul.contact-matter li:before,
+.dark .block-picSlide .btn-next,
+.dark .block-picSlide .btn-prev,
+.dark .jcarousel-prev,
+.dark .jcarousel-next,
+.dark .ui-dialog .ui-dialog-titlebar-close,
+.dark .chan-control a,
+.dark .news-strip .up,
+.dark .news-strip .down,
+.dark .menu-btn a,
+.dark .main-search input[type="submit"],
+.dark .slide-container .slideNext,
+.dark .video-thumb .vid-bot a,
+.dark .audio-thumb .vid-bot a,
+.dark .ad-horizontal,
+.dark .close,
+.dark .btn-facebook,
+.dark .breadcrumb > li:first-child a,
+.dark .pagination ul > li.previous > a:before,
+.dark .pagination ul > li.previous > span:before,
+.dark .pagination ul > li.next > a:before,
+.dark .pagination ul > li.next > span:before,
+.dark .pagination a.prev:before,
+.dark .pagination span.prev:before,
+.dark .pagination a.next:before,
+.dark .pagination span.next:before,
+.dark .pagination a.jp-previous:before,
+.dark .pagination > span.jp-previous:before,
+.dark .pagination > a.jp-next:before,
+.dark .pagination > span.jp-next:before,
+.vid-play:after,
+.dark li.menu-expand:after,
+.dark .dark li.menu-collapse:after,
+.dark .info .icon-vimeo, 
+.dark .info .icon-metacafe, 
+.dark .info .icon-cloud, 
+.dark .info .icon-blip, 
+.dark .info .icon-dailymotion {
+  background-image: url(../images/sprites-dark.png);
+}
+
+.dark .icon-linkedin,
+.dark .icon-myspace,
+.dark .icon-vimeo,
+.dark .icon-digg,
+.dark .icon-lastfm,
+.dark .icon-rss-feeds,
+.dark .icon-stumble-upon,
+.dark .icon-dribble,
+.dark .icon-reddit,
+.dark .icon-flickr,
+.dark .icon-skype,
+.dark .icon-pinterest,
+.dark .icon-foursquare,
+.dark .icon-tumbler,
+.dark .icon-gplus,
+.dark .icon-instagram,
+.dark .icon-blogger,
+.dark .icon-soundcloud,
+.dark .icon-local-video,
+.dark .icon-local-audio,
+.dark .icon-rdio,
+.dark .icon-groovshark,
+.dark .icon-path,
+.dark .icon-itunes,
+.dark .icon-spotify{
+	 background-image: url(../images/social-icons-sprite.png);
+}
+.dark .loadmore .icon-refresh {
+	background: url(../images/loading-dark.gif) no-repeat 0 0 !important;
+}
+
+body.dark,
+.dark .snap .close,
+.dark a,
+.dark ul.contact-matter a,
+.dark ul.contact-matter li,
+.dark .blog-detail p,
+.dark .contents,
+.dark label small,
+.dark .help-block,
+.dark .help-inline,
+.dark .pagination ul > li.active > a,
+.dark .pagination ul > li.active > span,
+.dark .pagination a,
+.dark .pagination span {
+	color:#a6a6a6;
+}
+
+.dark .logo-bar,
+.dark .filters .filter-content,
+.dark .breadcrumb,
+.dark .pagination ul > li > a,
+.dark .pagination ul > li > span {
+	background-color:#333333;
+}
+
+.dark .footer .bullet-arrow li,
+.dark .snap,
+.dark .tab-bar,
+.dark .nav-tabs,
+.dark .or,
+.dark .video-details .pulished {
+	background:#1b1b1b;
+}
+
+.dark .block-pic,
+.dark .block-vid,
+.dark .pagination,
+.dark .pagination ul > li > a,
+.dark .pagination ul > li > span {
+	border-color:#242424;
+}
+
+.dark .main-search input[type="text"] {
+	border-color:#333333;
+	color:#adadad;
+	background-color:transparent;
+}
+
+.dark a.drop-select,
+.dark .dropdown ul li > a {
+	color:#a5a5a5;
+}
+
+.dark ul.user-bar li span {
+	color:#dad8d8;
+}
+.dark ul.user-bar li,
+.dark ul.user-bar li a {
+	color:#8f8e8e;	
+}
+
+.dark .pagination ul > li.active > a:hover,
+.dark .pagination ul > li.active > span:hover,
+.dark .pagination a:hover,
+.dark .pagination span:hover,
+.dark .pagination a.current,
+.dark .pagination span.current,
+.dark .pagination a.jp-current,
+.dark .pagination span.jp-current {
+	color:#ffffff;
+}
+
+.dark .main-search input[type="text"]:focus {
+	border-color:#adadad;
+}
+
+.dark .menu li li,
+.dark .dropdown ul li,
+.dark .menu-mobile .menu li a {
+	border-color:#2d2d2d;
+}
+.dark .dark .alert {
+	color:#adadad;
+}
+.dark .filters .filter-data a:after {
+	border-top:5px solid #fff;
+}
+
+.dark .video-thumb, .dark .audio-thumb {
+	border-color:#333333;
+}
+
+.dark .footer .video-thumb, .dark .footer .audio-thumb {
+	border-color:none;
+}
+
+.dark .bullet-arrow li:before {
+	border-color:transparent transparent transparent #adadad;
+}
+.dark .bullet-arrow li:hover:before {
+	border-color:transparent transparent transparent #ffffff;
+}
+
+.dark .bullet-arrow li:hover {
+	background:#c50b0b;
+}
+
+.dark .bottom {
+	text-shadow: none;
+	-moz-text-shadow: none;
+	-webkit-text-shadow: none;
+}
+
+.dark .video-details .socialize,
+.dark .details .user-data {
+	background:#2e2e2e;
+}
+.dark .socialize li.sp {
+	background-position:-30px -36px;
+}
+
+.dark .user-comments li + li,
+.dark .user-comments li li {
+	border-color:#3c3c3c;
+}
+.dark .comment-area {
+	background:#242424;
+}
+.dark ul.user-bar li img {
+	border-color:#606060;
+}
+
+.dark .author > img,
+.dark .user-comments .comment-box img,
+.dark .details .user > img,
+.dark img.img-bordr {
+	border-color:#565656;
+}
+.dark .google-maps {
+	background:#242424;
+}
+
+.dark .pagination ul > li.previous > a:before,
+.dark .pagination ul > li.previous > span:before,
+.dark .pagination ul > li.next > a:before,
+.dark .pagination ul > li.next > span:before,
+.dark .pagination a.prev:before,
+.dark .pagination span.prev:before,
+.dark .pagination a.next:before,
+.dark .pagination span.next:before,
+.dark .pagination a.jp-previous:before,
+.dark .pagination > span.jp-previous:before,
+.dark .pagination > a.jp-next:before,
+.dark .pagination > span.jp-next:before {
+  opacity: .5;
+  filter: alpha(opacity=50);
+}
+
+.dark .pagination ul > li.previous > a:hover:before,
+.dark .pagination ul > li.previous > span:hover:before,
+.dark .pagination ul > li.next > a:hover:before,
+.dark .pagination ul > li.next > span:hover:before,
+.dark .pagination a.prev:hover:before,
+.dark .pagination span.prev:hover:before,
+.dark .pagination a.next:hover:before,
+.dark .pagination span.next:hover:before,
+.dark .pagination a.jp-previous:hover:before,
+.dark .pagination > span.jp-previous:hover:before,
+.dark .pagination > a.jp-next:hover:before,
+.dark .pagination > span.jp-next:hover:before {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+
+.dark .tab-bar,
+.dark .nav-tabs,
+.dark .widget_recent_entries li,
+.dark .single-contents .pagination a,
+.dark .single-contents .pagination span {
+	border-color:#0c0c0c;
+}
+
+.dark .nav-tabs > .active > a,
+.dark .nav-tabs > .ui-state-active a,
+.dark .nav-tabs > .active > a:hover {
+	background-color:#0c0c0c;
+}
+
+.dark .pagination.blog > a:last-child,
+.dark .pagination.blog > span:first-child,
+.dark .pagination > a, 
+.dark .pagination > span,
+.dark .single-contents .video-thumb,
+.dark .single-contents .audio-thumb {
+	border-color:#1b1b1b;
+}
+
+.dark .snap {
+	border-color:#242424;
+}
+.dark .snap .close {
+	background-position:4px -768px;
+}
+
+.dark .login-box,
+.dark .ui-dialog,
+.dark .progress .bar {
+	background: #525252; /* Old browsers */
+	background: -moz-linear-gradient(top,  #525252 0%, #1d1d1d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#525252), color-stop(100%,#1d1d1d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #525252 0%,#1d1d1d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #525252 0%,#1d1d1d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #525252 0%,#1d1d1d 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #525252 0%,#1d1d1d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#1d1d1d',GradientType=0 ); /* IE6-9 */
+}
+
+.dark .pagination > a, 
+.dark .pagination > span,
+.dark .login-box .heading,
+.dark .ui-dialog .heading {
+	background:none;
+}
+
+/*** Form Elements ***/
+.dark textarea,
+.dark input[type="text"],
+.dark input[type="password"],
+.dark input[type="datetime"],
+.dark input[type="datetime-local"],
+.dark input[type="date"],
+.dark input[type="month"],
+.dark input[type="time"],
+.dark input[type="week"],
+.dark input[type="number"],
+.dark input[type="email"],
+.dark input[type="url"],
+.dark input[type="search"],
+.dark input[type="tel"],
+.dark input[type="color"],
+.dark .uneditable-input,
+.dark select {
+  background-color:#1b1b1b;
+  border-color:#101010;
+}
+.dark textarea.disabled,
+.dark input[type="text"].disabled,
+.dark input[type="password"].disabled,
+.dark input[type="datetime"].disabled,
+.dark input[type="datetime-local"].disabled,
+.dark input[type="date"].disabled,
+.dark input[type="month"].disabled,
+.dark input[type="time"].disabled,
+.dark input[type="week"].disabled,
+.dark input[type="number"].disabled,
+.dark input[type="email"].disabled,
+.dark input[type="url"].disabled,
+.dark input[type="search"].disabled,
+.dark input[type="tel"].disabled,
+.dark input[type="color"].disabled {
+	background-color:#3d3d3d;
+	border-color:#3f3f3f;
+}
+
+.dark .btn-black {
+	background-color:#5b5b5b;
+}
+.dark .menu-mobile .menu a:hover {
+	color:#c50b0b;
+}
+.dark .menu-mobile .menu li ul a:before {
+	border-color:transparent transparent transparent #ffffff;
+}
+.dark .menu-mobile .menu li ul a:hover:before {
+	border-color:transparent transparent transparent #c50b0b;
+}

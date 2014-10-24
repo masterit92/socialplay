@@ -1,0 +1,94 @@
+.form-horizontal select, .form-horizontal textarea, .form-horizontal input[type="text"], .uneditable-input
+{
+	color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    padding: 4px 15px;
+    vertical-align: middle;
+}
+
+.form-horizontal textarea, .form-horizontal input[type="text"], .form-horizontal .uneditable-input
+{
+	background-color: #D2D2D2;
+    border: 1px solid #D2D2D2;
+}
+
+
+.form-horizontal select, .form-horizontal textarea, .form-horizontal input[type="text"], .uneditable-input
+{
+	border-radius:0 0 0 0;
+	-moz-box-sizing: border-box;
+	float:left;
+}
+
+.form-horizontal .controls {
+    margin-left: 190px;
+}
+
+
+.chan-box .channel > img {
+    float: left;
+    width: 100%;
+}
+.form-horizontal img {
+    border: 0 none;
+    max-width: 100% !important;
+}
+
+.form-horizontal .control-label {
+    float: left;
+    padding-top: 5px;
+    width: 170px;
+}
+
+.form-horizontal label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-horizontal label, .form-horizontal input, .form-horizontal button, .form-horizontal select, .form-horizontal textarea {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+}
+
+.form-horizontal .control-group:before, .form-horizontal .control-group:after
+{
+	content: "";
+    display: table;
+    line-height: 0;
+}
+
+.form-horizontal .control-group:after
+{
+	clear:both;
+}
+
+.form-horizontal .control-group:before, .form-horizontal .control-group:after
+{
+	content: "";
+    display: table;
+    line-height: 0;
+}
+
+.form-horizontal .control-group
+{
+	margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.form-horizontal .control-group {
+    padding: 10px 30px;
+}
+
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 40px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
